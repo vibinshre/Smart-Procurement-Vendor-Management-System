@@ -1,0 +1,71 @@
+.container{
+  padding:99px;
+  width: 70vh;
+  height: 80vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2{
+  margin-bottom:80px;
+  color:#333;
+}
+
+form{
+  display:flex;
+  gap:10px;
+  margin-bottom:20px;
+}
+
+input, select{
+  padding:8px;
+  border:1px solid #ccc;
+  border-radius:4px;
+}
+
+button{
+  padding:8px 15px;
+  border:none;
+  background:#038ba6;
+  color:white;
+  border-radius:4px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#355a1a;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+table th{
+  background:#038ba6;
+  color:white;
+}
+
+table th, table td{
+  padding:10px;
+  border:1px solid #ddd;
+  text-align:center;
+}
+
+.container button.action-btn{
+  margin-right:5px;
+  background:#2ea44f;
+  color:#ffffff;
+}
+
+.container button.action-btn:hover{
+  background:#248a42;
+}
+
+.container button.delete-btn{
+  background:#dc3545;
+  color:#ffffff;
+}
+
+.container button.delete-btn:hover{
+  background:#bb2d3b;
+}

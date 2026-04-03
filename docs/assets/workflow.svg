@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 128" role="img">
+  <defs>
+    <linearGradient id="pill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e293b"/>
+      <stop offset="100%" style="stop-color:#0f172a"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="920" height="128" fill="#f1f5f9"/>
+  <text x="460" y="30" text-anchor="middle" fill="#0f172a" font-family="system-ui, sans-serif" font-size="14" font-weight="700">Procurement pipeline</text>
+  <g font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">
+    <rect x="16" y="52" width="128" height="46" rx="8" fill="url(#pill)" stroke="#14b8a6" stroke-width="1.5"/>
+    <text x="80" y="82" fill="#99f6e4" font-weight="600">Requisition</text>
+    <line x1="144" y1="75" x2="168" y2="75" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="170" y="52" width="108" height="46" rx="8" fill="url(#pill)" stroke="#0ea5e9" stroke-width="1.5"/>
+    <text x="224" y="82" fill="#bae6fd" font-weight="600">Approval</text>
+    <line x1="278" y1="75" x2="302" y2="75" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="304" y="52" width="118" height="46" rx="8" fill="url(#pill)" stroke="#8b5cf6" stroke-width="1.5"/>
+    <text x="363" y="82" fill="#ddd6fe" font-weight="600">Purchase Order</text>
+    <line x1="422" y1="75" x2="446" y2="75" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="448" y="52" width="108" height="46" rx="8" fill="url(#pill)" stroke="#f59e0b" stroke-width="1.5"/>
+    <text x="502" y="82" fill="#fde68a" font-weight="600">Delivery</text>
+    <line x1="556" y1="75" x2="580" y2="75" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="582" y="52" width="100" height="46" rx="8" fill="url(#pill)" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="632" y="82" fill="#fbcfe8" font-weight="600">Invoice</text>
+    <line x1="682" y1="75" x2="706" y2="75" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrow)"/>
+    <rect x="708" y="52" width="196" height="46" rx="8" fill="url(#pill)" stroke="#22c55e" stroke-width="1.5"/>
+    <text x="806" y="82" fill="#bbf7d0" font-weight="600">Payment and reports</text>
+  </g>
+</svg>

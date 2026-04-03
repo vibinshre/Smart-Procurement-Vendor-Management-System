@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  backend:
+    build: ./Smart-Procurement-Vendor-Management-System-Backend
+    ports:
+      - "8098:8098"
+    container_name: backend-app
+
+  frontend:
+    build: ./Smart-Procurement-Vendor-Management-System-Frontend
+    ports:
+      - "5173:80"
+    container_name: frontend-app
+    depends_on:
+      - backend
